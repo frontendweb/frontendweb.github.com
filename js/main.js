@@ -1,3 +1,4 @@
+<!doctype html>
 jQuery(document).ready(function($) {
-  $('#myCarousel').carousel();
+  $('#content').scrollspy()
 });

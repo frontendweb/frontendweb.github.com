@@ -1,4 +1,4 @@
-<!doctype html>
+!<!doctype html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -34,7 +34,8 @@
 		<div class="row-fluid">
 			<div class="span3 bs-docs-sidebar">
 					<ul class="nav nav-tabs nav-stacked bs-docs-sidenav affix">
-						<li class="active"><a href="#lesson1">Lesson 1</a></li>
+						<li class="active"><a href="#intro-page">Introduction</a></li>
+						<li class=""><a href="#lesson1">Lesson 1</a></li>
 						<li class="disabled"><a href="#lesson2">Lesson 2</a></li>
 						<li class="disabled"><a href="#lesson3">Lesson 3</a></li>
 						<li class="disabled"><a href="#lesson4">Lesson 4</a></li>
@@ -43,10 +44,83 @@
 					</ul>
 			</div>
 			<div class="span9">
+				<section id="intro-page">
+					<div class="page-header">
+						<h1>Introduction</h1>
+					</div>
+					<h2>Class Goals</h2>
+					<ul>
+						<li>Learn HTML</li>
+						<li>Learn CSS</li>
+						<li>Learn Javascript</li>
+						<li>Learn how to use Twitter Bootstrap to combine all these lessons into a webpage</li>
+					</ul>
+					<div class="bs-docs-example">
+						<ul>
+							<li>{user-name}.github.com</li>
+							<ul>
+								<li>css</li>
+								<ul>
+									<li><code>main.css</code></li>
+								</ul>
+								<li>img</li>
+								<ul>
+									<li><code>sample-1.png</code></li>
+									<li><code>sample-2.png</code></li>
+									<li><code>sample-3.png</code></li>
+								</ul>
+								<li>js</li>
+								<ul>
+									<li><code>main.js</code></li>
+								</ul>
+								<li>lib</li>
+								<ul>
+									<li>bootstrap</li>
+									<li>handlebars</li>
+									<li>jquery</li>
+								</ul>
+								<li><code>index.html</code></li>
+								<li><code>README.md</code></li>
+							</ul>
+						</ul>
+					</div>
+					<h2>Class Structure</h2>
+					<ul>
+						<li>Basic Topic</li>
+						<li>Demo</li>
+						<li>Advanced Topic or Tool (optional)</li>
+					</ul>
+				</section>
 				<section id="lesson1">
 					<div class="page-header">
 						<h1>Lesson 1 <small>August 13, 2013</small></h1>
 					</div>
+					<h2>Goals For This Lesson</h2>
+					<ul>
+						<li>Basic Topic:</li>
+						<ul>
+							<li>Learn Basic HTML</li>
+						</ul>
+						<li>Demo:</li>
+						<ul>
+							<li>Create an <code>index.html</code> with the <a href="#homepageExercise">contents</a> of your homage</li>
+							<li>Deploy that <code>index.html</code> to GitHub</li>
+						</ul>						
+							<li>Advanced Topic/Tool</li>
+						<ul>
+							<li>Learn how to use Emmet</li>							
+						</ul>
+					</ul>
+					<div class="bs-docs-example">
+						<ul>
+							<li>{user-name}.github.com</li>
+							<ul>
+								<li><code>README.md</code></li>
+								<li><code>index.html</code></li>
+							</ul>
+						</ul>
+					</div>
+					<hr class="bs-docs-separator">
 					<h2>Codecademy</h2>
 						<div>
 							<p>Go to <a href="http://www.codecademy.com/register/sign_up">codecademy.com</a> and setup an account.</p>
@@ -114,7 +188,7 @@
 					<div class="bs-docs-example">
 						<img src='img/L1SS/githubInstall-7.PNG'>
 					</div>
-					<div>
+					<div id='homepageExercise'>
 						<p>Using what we learned in class, update that <code>index.html</code> page with the following info:</p>
 						<ul>
 							<li>A heading with your name</li>
@@ -141,8 +215,6 @@
 					<div class="bs-docs-example">
 						<img src='img/L1SS/githubInstall-10.PNG'>
 					</div>
-
-
 					<div>
 						<p>
 							Type in {user-name}.github.com into your browser and you should see your page, just like you saw in the codecademy preview window (It may take up to 10 minutes on first deploy so be patient)

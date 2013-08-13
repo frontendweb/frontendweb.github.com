@@ -1,4 +1,5 @@
-<!doctype html>
+
 jQuery(document).ready(function($) {
-  $('#content').scrollspy()
+  $('#content').scrollspy();
+  $('.carousel').carousel();
 });

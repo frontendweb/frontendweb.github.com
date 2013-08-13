@@ -1,3 +1,8 @@
 .content{
 	margin-top: 60px;
 }
+
+.splash{
+	background-image: url("../img/splash.jpg"); 
+	background-attachment: fixed
+}

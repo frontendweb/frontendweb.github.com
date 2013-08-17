@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Frontend Web Development</title>
+
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="lib/bootstrap/css/doc.css">
+	<link rel="stylesheet" href="lib/prettify/prettify.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body id="content" data-spy="scroll" data-target=".bs-docs-sidebar">
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">Frontend Web Development</a>
+				<button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li><a href="index.html">Home</a></li>
+						<li class="active dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">Lessons</a>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+							<li><a tabindex="-1" href="lesson1.html" id="lesson1">Lesson 1</a></li>
+							<li><a tabindex="-1" href="lesson2.html" id="lesson1">Lesson 2</a></li>						
+						</ul>
+						<li><a href="resources.html">Resources</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span3 bs-docs-sidebar">
+					<ul class="nav nav-tabs nav-stacked bs-docs-sidenav affix">					
+						<li class="active"><a href="#goals">Goals</a></li>
+						<li><a href="#codecademy">Codecademy</a></li>
+						<li><a href="#github">Github Account</a></li>
+						<li><a href="#repo">Creating a New Repository</a></li>
+						<li><a href="#install">Installing a GitHub Client</a></li>
+						<li><a href="#deploy">Deploying your file</a></li>
+					</ul>
+			</div>
+			<div class="span9">
+				<section id="goals">
+					<div class="page-header">
+						<h1>Lesson 1 <small>August 13, 2013</small></h1>
+					</div>
+					<h2>Goals For This Lesson</h2>
+					<ul>
+						<li>Basic Topic:</li>
+						<ul>
+							<li>Learn Basic HTML</li>
+						</ul>
+						<li>Demo:</li>
+						<ul>
+							<li>Create an <code>index.html</code> with the <a href="#homepageExercise">contents</a> of your homage</li>
+							<li>Deploy that <code>index.html</code> to GitHub</li>
+						</ul>						
+							<li>Advanced Topic/Tool</li>
+						<ul>
+							<li>Learn how to use Emmet</li>							
+						</ul>
+					</ul>
+					<div class="bs-docs-example">
+						<ul>
+							<li>/{user-name}.github.com</li>
+							<ul>
+								<li><code>README.md</code></li>
+								<li><code>index.html</code></li>
+							</ul>
+						</ul>
+					</div>
+				</section>
+				<hr class="bs-docs-separator">
+				<section id='codecademy'>					
+					<h2>Codecademy</h2>
+						<div>
+							<p>Go to <a href="http://www.codecademy.com/register/sign_up" target="_blank">codecademy.com</a> and setup an account.</p>
+						</div>
+						<div><a href="http://www.codecademy.com/courses/web-beginner-en-HZA3b?curriculum_id=50579fb998b470000202dc8b" target="_blank">HTML Basics I</a></div>
+						<div><a href="http://www.codecademy.com/courses/web-beginner-en-y2Yjd?curriculum_id=50579fb998b470000202dc8b" target="_blank">HTML Basics II</a></div>
+						<div><a href="http://www.codecademy.com/courses/web-beginner-en-f8mcL?curriculum_id=50579fb998b470000202dc8b" target="_blank">HTML Basics III</a></div>
+				</section>
+				<hr class="bs-docs-separator">
+				<section id='github'>	
+					<h2 id='githubTutorial'>GitHub Pages</h2>
+					<div>
+						<p>Go to <a href="https://github.com/" target="_blank">GitHub.com</a> and setup an account.</p>
+					</div>
+				</section>
+				<hr class="bs-docs-separator">
+				<section id='repo'>	
+					<h2>Creating a new Repository</h2>
+					<div>
+						<p>Once you're logged in, create a new repository by clicking on the icon in the top right corner.</p>
+					</div>
+					<div class="bs-docs-example">
+						<img src='img/L1SS/createRepo-1.PNG'>						
+					</div>
+					<div>
+						<p>Create a repository using your <span class="text-info"><strong>{user-name}.github.com</strong></span> as the name of the repository where {user-name} is your username.For example my user name is frontendweb so my repository name would be <span class="text-info"><strong>frontendweb.github.com</strong></span></p>
+						<p class='text-error'><strong>Important!</strong> The website will NOT deploy if this is not named correctly as GitHub pages uses this format to host your page so double check this matches</p>
+						
+					</div>
+					<div class="bs-docs-example">
+						<img src='img/L1SS/createRepo-2.PNG'>
+					</div>
+				</section>
+				<hr class="bs-docs-separator">
+				<section id='install'>	
+					<h2>Installing a GitHub Client (Windows)</h2>
+					<div>
+						<p>Download and install the GitHub client for <a href="http://windows.github.com" target="_blank">Windows</a> or for <a href="http://mac.github.com" target="_blank">Mac</a>. Once installed you should be prompted for login</p>
+					</div>
+					<div class="bs-docs-example">
+						<img src='img/L1SS/githubInstall-2.PNG'>
+					</div>
+					<div>
+						<p>Select your GitHub repository from the left hand side</p>
+					</div>					
+					<div class="bs-docs-example">
+						<img src='img/L1SS/githubInstall-3.PNG'>
+					</div>
+					<div>
+						<p>Click 'CLONE' to copy your online directory onto your local machine</p>
+					</div>						
+					<div class="bs-docs-example">
+						<img src='img/L1SS/githubInstall-4.PNG'>
+					</div>
+					<div>
+						<p>Right click and select 'open in explorer'</p>
+					</div>						
+					<div class="bs-docs-example">
+						<img src='img/L1SS/githubInstall-5.PNG'>
+					</div>
+					<div>
+						<p>This is where your project will live. The only thing in there is the autogenerated <code>README.md</code>. If you created your repository with the instructions above then you should have one, but it is not required to host the webpage. It's best practice to document your project in the <code>README.md</code> but don't worry if it's not there</p>
+					</div>						
+					<div class="bs-docs-example">
+						<img src='img/L1SS/githubInstall-6.PNG'>
+					</div>
+					<div>
+						<p>Now that <code>README.md</code> is pretty lonely so let's create an <code>index.html</code> page. You can use notepad but I suggest downloading either <a href='http://notepad-plus-plus.org/' target="_blank">Notepad++</a> or <a href='http://www.sublimetext.com/' target="_blank">Sublime Text</a>. I prefer Sublime so the following example will be using it. Open up Sublime and create a new file</p>
+					</div>							
+					<div class="bs-docs-example">
+						<img src='img/L1SS/githubInstall-7.PNG'>
+					</div>
+					<div id='homepageExercise'>
+						<p>Using what we learned in class, update that <code>index.html</code> page with the following info:</p>
+						<ul>
+							<li>A heading with your name</li>
+							<li>An unordered list with your 3 favorite hobbies</li>
+							<li>An ordered list with your top 3 songs including genre</li>
+							<li>An image of your favorite animal</li>
+							<li>A paragraph with what you hope to get out of this class (as long or as short as you like)</li>
+							<li>A self rating of what your knowledge of this topic was prior to coming to this class: beginner, intermediate, advanced</li>
+						</ul>
+						<p>I have some placeholder text below, but we can go over what it should look like at the beginning of next class</p>
+					</div>					
+					<div class="bs-docs-example">
+						<img src='img/L1SS/githubInstall-8.PNG'>
+					</div>
+				</section>
+				<hr class="bs-docs-separator">
+				<section id='deploy'>	
+					<h2>Deploying your file</h2>
+					<div>
+						<p>Once you're happy with the changes, go back to your GitHub client. If you saved everything correctly you should get a view like my example below. What you're seeing is the difference between what you have locally on your computer and what's on GitHub. In this case you've added an <code>index.html</code> file. We need to sync up our two directories because GitHub doesn't know about this <code>index.html</code> yet. We do this by first commiting our changes locally by typing in a commit message (usually a description of what you did) and then pressing the commit button</p>
+					</div>						
+					<div class="bs-docs-example">
+						<img src='img/L1SS/githubInstall-9.PNG'>
+					</div>
+					<div>
+						<p>Now all that's left to do is to hit the 'sync' button at the top of the client to synchronize with GitHub. If you go to github.com/{user-name}/{user-name}.github.com you should see your <code>index.html</code></p>
+					</div>						
+					<div class="bs-docs-example">
+						<img src='img/L1SS/githubInstall-10.PNG'>
+					</div>
+					<div>
+						<p>
+							Type in {user-name}.github.com into your browser and you should see your page, just like you saw in the codecademy preview window (It may take up to 10 minutes on first deploy so be patient)
+						</p>
+					</div>
+					
+				</section>		
+			</div>
+		</div>
+		
+	</div>
+</body>
+	<script src="lib/jquery/jquery-1.10.2.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="lib/prettify/prettify.js"></script>
+	<script src="js/main.js"></script>
+</html>

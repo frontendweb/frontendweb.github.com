@@ -6,3 +6,8 @@
 	background-image: url("../img/splash.jpg"); 
 	background-attachment: fixed
 }
+
+ul.nav li.dropdown:hover > ul.dropdown-menu{
+    display: block;    
+    margin:0;
+}

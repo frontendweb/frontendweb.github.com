@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Frontend Web Development</title>
+
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="lib/bootstrap/css/doc.css">
+	<link rel="stylesheet" href="lib/prettify/prettify.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body id="content" data-spy="scroll" data-target=".bs-docs-sidebar">
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">Frontend Web Development</a>
+				<button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li><a href="index.html">Home</a></li>
+						<li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">Lessons</a>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+							<li><a tabindex="-1" href="intro.html" id="introNav">Introduction</a></li>
+							<li><a tabindex="-1" href="lesson1.html" id="lesson1">Lesson 1</a></li>
+							<li><a tabindex="-1" href="lesson2.html" id="lesson2">Lesson 2</a></li>						
+						</ul>
+						<li><a href="resources.html">Resources</a></li>
+						<li><a href="updates.html">Updates</a></li>
+						<li><a href="sites.html">Sites</a></li>
+						<li class='active'><a href="faq.html">FAQ</a></li>		
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container" id=''>		
+		<div class="row-fluid">
+			<h2>FAQ</h2>
+
+
+			<a href="#q1">
+				<p>What will a completed website look like?</p>
+			</a>
+			<a href="#q2">
+				<p>Why do I get an error when I try to install GitHub?</p>
+			</a>
+			<a href="#q3">
+				<p>Why does GitHub say my username is already taken?</p>
+			</a>
+			<a href="#q4">
+				<p>Why do I get a "commit failed" message when I try to commit?</p>
+			</a>
+			<a href="#q5">
+				<p>What is this SSH key that GitHub sends me?</p>
+			</a>
+			<a href="#q6">
+				<p>How do I delete my repository?</p>
+			</a>
+		</div>
+		<div class="row-fluid">
+			<section id="q1">
+				<h4>What will a completed website look like?</h4>
+				<p>If you want to look at an example of a completed website you can view the source code for this site at: <a href="http://github.com/frontendweb/frontendweb.github.com" target='_blank'>http://github.com/frontendweb/frontendweb.github.com</a>. You can also do the same for anyone elses page following the same url format since all of our pages are public. You can also (in Chrome) right click the page and select "Inspect Element" to look at the source of the page with Chrome's Development tools. Later in the class I'll go into more depth about how to use this tool.</p>
+			</section>
+			<section id="q2">
+				<h4>Why do I get an error when I try to install GitHub?</h4>
+				<p>Most likely if you are getting an error while trying to install GitHub, it is because GitHub is blocked by our company firewall. You will not be able to install GitHub or commit to GitHub while on the company network. To do update your site you will have to do it from a home computer.</p>
+			</section>
+			<section id="q3">
+				<h4>Why does GitHub say my username is already taken?</h4>
+				<p>GitHub does not currently give you feedback when you've sucessfully created your account. If it's saying your username is already taken after you've already tried to make the account once, it is very likely that you just need to go to the login page and login. If that however doesn't work, your username has been taken and you will have to try another name.</p>
+			</section>
+			<section id="q4">
+				<h4>Why do I get a "commit failed" message when I try to commit?</h4>
+				<p>Git requires that you have a username and email filled out to commit. In your GitHub client go to 'tools' in the top right corner and click on 'options'. There you can fill out your information. It is documented in lesson 1's <a href="lesson1.html#install" target="_blank">GitHub Installation Tutorial</a> for your convenience.</p>
+			</section>
+			<section id="q5">
+				<h4>What is this SSH key that GitHub sends me?</h4>
+				<p>Git requires you have a valid SSH key to submit code to a repository. It's so that no one else can mess with your code unless you give them a key as well. For our purposes you don't have to worry about this key since your GitHub client will set it up for you automatically (hence the email).</p>
+			</section>
+			<section id="q6">
+				<h4>How do I delete my repository?</h4>
+				<p>When you're logged on to your main repository page (in my case <strong>http://github.com/frontendweb/frontendweb.github.com</strong> there should be a <strong>settings</strong> tab on the right side of the page. If you click that, there is a <strong>Delete this repository</strong> button under <strong>The Danger Zone</strong> section of the page. If you click this button and type in the name of your repository you can delete your repository.</p>
+				<p class="text-error">WARNING: Deleting your repository is permanent so don't do this unless you are sure about it!</p>
+			</section>
+		</div>
+	</div>
+</body>
+	<script src="lib/jquery/jquery-1.10.2.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="lib/prettify/prettify.js"></script>
+	<script src="js/main.js"></script>
+</html>

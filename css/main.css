@@ -12,11 +12,6 @@ body{
 	background-attachment: fixed
 }
 
-ul.nav li.dropdown:hover > ul.dropdown-menu{
-    display: block;    
-    margin:0;
-}
-
 #classGoals li{
 	font-size:24px;
 	margin-bottom:10px;

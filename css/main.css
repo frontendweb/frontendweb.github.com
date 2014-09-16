@@ -1,7 +1,7 @@
 
 /* Desktops and laptops ----------- */
 @media only screen 
-and (min-width : 1224px) {
+and (min-height : 600px) {
 	body{
 		padding-bottom: 200px;
 	}
@@ -9,7 +9,7 @@ and (min-width : 1224px) {
 
 /* Large screens ----------- */
 @media only screen 
-and (min-width : 1824px) {
+and (min-height : 1000px) {
 	body{
 		padding-bottom: 500px;
 	}

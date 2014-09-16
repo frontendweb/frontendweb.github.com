@@ -1,5 +1,5 @@
 body{
-	padding-bottom: 50px;
+	padding-bottom: 200px;
 }
 .content{
 	margin-top: 60px;
@@ -18,4 +18,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu{
 #classGoals li{
 	font-size:24px;
 	margin-bottom:10px;
+}
+
+#headline a{
+	text-decoration: none;
 }

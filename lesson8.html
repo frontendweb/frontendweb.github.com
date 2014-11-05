@@ -29,14 +29,17 @@
 							<li><a tabindex="-1" href="lesson1.html" id="lesson1">Lesson 1</a></li>
 							<li><a tabindex="-1" href="lesson2.html" id="lesson2">Lesson 2</a></li>
 							<li><a tabindex="-1" href="lesson3.html" id="lesson3">Lesson 3</a></li>	
-							<li><a tabindex="-1" href="lesson4.html" id="lesson4">Lesson 4</a></li>
-							<li><a tabindex="-1" href="lesson5.html" id="lesson5">Lesson 5</a></li>
-							<li><a tabindex="-1" href="lesson6.html" id="lesson6">Lesson 6</a></li>			
+							<li><a tabindex="-1" href="lesson4.html" id="lesson4">Lesson 4</a></li>		
+							<li><a tabindex="-1" href="lesson5.html" id="lesson5">Lesson 5</a></li>	
+							<li><a tabindex="-1" href="lesson6.html" id="lesson6">Lesson 6</a></li>
+							<li><a tabindex="-1" href="lesson7.html" id="lesson7">Lesson 7</a></li>
+							<li><a tabindex="-1" href="lesson8.html" id="lesson7">Lesson 8</a></li>
 						</ul>
 						<li><a href="resources.html">Resources</a></li>
 						<li><a href="updates.html">Updates</a></li>
 						<li><a href="sites.html">Sites</a></li>
-						<li><a href="faq.html">FAQ</a></li>		
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="tutorial.html">Github Tutorial</a></li>		
 					</ul>
 				</div>
 			</div>
@@ -47,33 +50,50 @@
 			<div class="span3 bs-docs-sidebar">
 					<ul class="nav nav-tabs nav-stacked bs-docs-sidenav affix">					
 						<li class="active"><a href="#goals">Goals</a></li>
-						<li><a href="#demo">Demonstration</a></li>
-						<!--<li><a href="#deploy">Deploying your file</a></li>-->
 					</ul>
 			</div>
 			<div class="span9">
 				<section id="goals">
 					<div class="page-header">
-						<h1>Lesson 6 <small>September 24, 2013</small></h1>
+						<h1>Lesson 8 <small>November 5, 2014</small></h1>
 					</div>					
 					<h2>Goals For This Lesson</h2>
 					<ul>
-						<li>Demonstration/Walkthrough</li>
+						<li>Basic Topic:</li>
 						<ul>
-							<li>Using <a href="http://docs.emmet.io/" target='_blank'>Emmet</a> (formerly Zen Coding)</li>
-							<li><a href="http://getbootstrap.com" target='_blank'>Bootstrap 3</a> (formerly Twitter Bootstrap)</li>
-							<ul>
-								<li>Adding a <a href="http://getbootstrap.com/components/#navbar" target='_blank'>navigation bar</a></li>
-								<li>Add a <a href="http://getbootstrap.com/components/#jumbotron" target='_blank'>Jumbotron</a></li>
-								<li>Using the <a href="http://getbootstrap.com/css/#grid" target='_blank'>Bootstrap Grid system</a></li>
-								<ul>									
-									<li>Add subheadings</li>
-								</ul>
+							<li>Putting Everything Together
+								<ul>
+									<li>Learn Bootstrap
+										<ul>
+											<li><a href="http://getbootstrap.com/css/">CSS</a></li>
+											<li><a href="http://getbootstrap.com/css/#grid">Grid System</a></li>
+											<li><a href="http://getbootstrap.com/components/">Components</a></li>
+										</ul>
 
-							</ul>
-							<li>Using <a href="http://handlebarsjs.com/" target='_blank'>Handlebars</a> for templating (time permitting)</li>
-							<li>Using <a href="https://www.firebase.com/" target='_blank'>Firebase</a> to store our JSON (time permitting, last on the list because our company blocks it)</li>
-						</ul>			
+									</li>
+									<li>Create a Tip Calculator App from "Scratch"</li>									
+									<li>Look at some Bootstrap Resources</li>
+									<li>Analyze the Class Website</li>
+									<li>JSON Overview</li>
+									<li>Firebase Overview</li>
+									<li>Bower Overview</li>							
+								</ul>
+							</li>
+						</ul>
+						<li>Demo:</li>
+						<ul>
+							<li>Tip Calculator Project <a href="http://jsfiddle.net/39qkdyzk/5/">Start</a></li>
+							<li>Tip Calculator Project <a href="http://jsfiddle.net/39qkdyzk/4/">Completed</a></li>
+							<li><a href="http://bootsnipp.com/">Bootsnipp</a></li>
+							<li><a href="http://stackoverflow.com/questions/383692/what-is-json-and-why-would-i-use-it">JSON</a></li>
+						</ul>						
+						<li>Advanced Topic/Tool</li>
+						<ul>
+							<li>Firebase</li>
+							<li>Bower</li>
+							<li>Bento</li>
+							<li>TodoMVC</li>
+						</ul>
 					</ul>
 					<div><p><strong>What your personal directory should look like at the end of this lesson:</strong></p></div>					
 					<div class="bs-docs-example">
@@ -85,53 +105,15 @@
 								<li>/css</li>
 								<ul>
 									<li><code>main.css</code></li>
-								</ul>
+								</ul>								
 								<li>/js</li>
 								<ul>
 									<li><code>main.js</code></li>
-								</ul>
-								<li>/lib</li>
-								<ul>
-									<li>/bootstrap</li>
-									<ul>
-										<li>All the bootstrap content</li>
-									</ul>
-								</ul>
+								</ul>							
 							</ul>						
 						</ul>
 					</div>
-				</section>	
-				<section id="demo">
-					<h2>Demonstration/Walkthrough</h2>					
-					<ol>
-						<li><p>Download <a href="http://getbootstrap.com" target='_blank'>Bootstrap</a></p></li>
-						<li><p>Open up a new <a href="http://jsfiddle.net/" target='_blank'>JSFiddle</a></p></li>
-						<ul>
-							<li><p>Select jquery 1.9.1 under Frameworks & Extensions</p></li>
-							<li>The following are CDNs (Content Delivery Networks)</li>
-							<ul>
-								<li><p>Add <code>//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css</code> to External Resources</p></li>
-								<li><p>Add <code>//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css</code> to External Resources</p></li>
-								<li><p>Add <code>//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js</code> to External Resources</p></li>
-							</ul>
-						</ul>
-						<li>Add a <a href="http://getbootstrap.com/components/#navbar" target='_blank'>navigation bar</a></li>
-						<li>Add a <a href="http://getbootstrap.com/components/#jumbotron" target='_blank'>Jumbotron</a></li>
-						<li>Add subheadings using the <a href="http://getbootstrap.com/css/#grid" target='_blank'>Bootstrap grid system</a></li>
-						<li>Add images to those subheadings and make the images <a href="http://getbootstrap.com/css/#overview-responsive-images" target='_blank'>responsive</a></li>
-						<li>Customize those fonts using <a href="http://www.google.com/fonts/">Google Fonts</a></li>
-						<ul>
-							<li>Awesome Font Pairings <a href="http://www.briangardner.com/google-font-combinations/" target='_blank'>here</a> and <a href="http://www.mrmcguire.com/10-useful-google-font-combinations-for-your-next-site/" target='_blank'>there</a></li>
-							
-						</ul>
-					</ol>					
-					<p class="text-warning">Don't open until you've tried the demo yourself: <a href="http://jsfiddle.net/9G3LZ/1/" target='_blank'>Bootstrap Example Answer</a></p>
-					<p><a href="http://jsfiddle.net/KuZ6p/1/" target='_blank'>Handlebars Example</a></p>
-					<p><a href="https://www.firebase.com/tutorial/#gettingstarted" target='_blank'>Firebase Example</a></p>
-
-					<p>An up to date Bootstrap 3 <a href="http://www.realpython.com/blog/design/getting-started-with-bootstrap-3/#.UkEXdGR3icC" target='_blank'>tutorial</a></p>
-
-				</section>		
+				</section>						
 			</div>
 		</div>
 		

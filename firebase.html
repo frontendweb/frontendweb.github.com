@@ -23,7 +23,7 @@
 				<div class="nav-collapse">
 					<ul class="nav">
 						<li><a href="index.html">Home</a></li>
-						<li class="active dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">Lessons</a>
+						<li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">Lessons</a>
 						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
 							<li><a tabindex="-1" href="intro.html" id="introNav">Introduction</a></li>
 							<li><a tabindex="-1" href="lesson1.html" id="lesson1">Lesson 1</a></li>
@@ -33,14 +33,14 @@
 							<li><a tabindex="-1" href="lesson5.html" id="lesson5">Lesson 5</a></li>	
 							<li><a tabindex="-1" href="lesson6.html" id="lesson6">Lesson 6</a></li>
 							<li><a tabindex="-1" href="lesson7.html" id="lesson7">Lesson 7</a></li>
-							<li><a tabindex="-1" href="lesson8.html" id="lesson8">Lesson 8</a></li>
+							<li><a tabindex="-1" href="lesson8.html" id="lesson8">Lesson 8</a></li>							
 						</ul>
 						<li><a href="resources.html">Resources</a></li>
 						<li><a href="updates.html">Updates</a></li>
 						<li><a href="sites.html">Sites</a></li>
 						<li><a href="faq.html">FAQ</a></li>
 						<li><a href="tutorial.html">Github Tutorial</a></li>		
-						<li><a href="firebase.html">Firebase Tutorial</a></li>
+						<li class='active'><a href="firebase.html">Firebase Tutorial</a></li>
 					</ul>
 				</div>
 			</div>
@@ -51,67 +51,63 @@
 			<div class="span3 bs-docs-sidebar">
 					<ul class="nav nav-tabs nav-stacked bs-docs-sidenav affix">					
 						<li class="active"><a href="#goals">Goals</a></li>
-						<li><a href="#codeschool">Code School</a></li>
 					</ul>
 			</div>
 			<div class="span9">
 				<section id="goals">
 					<div class="page-header">
-						<h1>Lesson 6 <small>October 22, 2014</small></h1>
-					</div>					
+						<h1>Firebase Tutorial <small>January 23, 2015</small></h1>
+					</div>
+					<strong>DISCLAIMER: The demos won't work on the company network due to the firewall, so you'll have to try them at home</strong>	
 					<h2>Goals For This Lesson</h2>
-					<ul>
+					<ul>						
 						<li>Basic Topic:</li>
 						<ul>
-							<li>jQuery</li>
+							<li><a href="https://www.firebase.com/">Firebase</a></li>
+							<li><a href="https://www.firebase.com/docs/web/guide/">Step-By-Step Guide</a> (Recommended You Finish)</li>
 						</ul>
 						<li>Demo:</li>
 						<ul>
-							<li>Reviewing Objects</li>
-							<li>Deploying your main.js file (basic setup for now)
+							<li><a href="https://www.firebase.com/tutorial/#gettingstarted">Firebase Web Setup Tutorial</a></li>
+							<ul> 
+								<li>All of the following are at the end of the setup tutorial:</li>
 								<ul>
-									<li><a href="https://code.jquery.com/" target="_blank">jQuery Content Delivery Network (CDN)</a></li>
-									<li><a href="http://www.bootstrapcdn.com/" target="_blank">Bootstrap CDN</a></li>
+									<li>Chat Tutorial</li>
+									<li>Leaderboard Tutorial</li>
+									<li>Whiteboard Tutorial</li>
 								</ul>
-							</li>
+							</ul>	
+							<li><a href="https://www.firebase.com/signup/">Account Setup</a></li>						
 						</ul>						
-						<li>Reading</li>
-						<ul>							
-							<li>Book Website: <a href="http://javascriptbook.com">http://javascriptbook.com</a></li>
-							<li>Chapter 7: jQuery</li>
-						</ul>
-						<li>Advanced Topic/Tool</li>
+						<li>Additional Topic/Tool</li>
 						<ul>
-							<li>N/A</li>
+							<li><a href="http://nodejs.org/">Node</a></li>							
+							<li><a href="http://bower.io/">Bower</a></li>
 						</ul>
 					</ul>
-					<div><p><strong>What your personal directory should look like at the end of this lesson:</strong></p></div>					
-					<div class="bs-docs-example">
+					<h2>Node/Bower Usage</h2>
 						<ul>
-							<li>/{user-name}.github.com</li>
-							<ul>
-								<li><code>README.md</code></li>
-								<li><code>index.html</code></li>
-								<li>/css</li>
-								<ul>
-									<li><code>main.css</code></li>
-								</ul>								
-								<li>/js <span class="label label-info">New!</span></li>
-								<ul>
-									<li><code>main.js</code> <span class="label label-info">New!</span></li>
-								</ul>							
-							</ul>						
+							<li>After installing node you can use: </li>
+							<div class="bs-docs-example">
+									npm install bower
+							</div>
+							<li>Then you can use bower to install any web library:</li>
+							<div class="bs-docs-example">
+									bower install [package-name]
+							</div>
+							<li>Examples:</li>
+							<div class="bs-docs-example">
+									bower install jquery
+							</div>
+							<div class="bs-docs-example">
+									bower install bootstrap
+							</div>
+							<div class="bs-docs-example">
+									bower install angular
+							</div>
 						</ul>
-					</div>
-				</section>
-				<section id='codeschool'>					
-					<h2>Code School</h2>
-						<div>
-							<p>Create a <a href="https://www.codeschool.com/users/sign_up?return=%2Faccount%2Fcourses%2Ftry-jquery%2Fadd">Code School</a> account to track your progress. Tracking your progress is optional. </p>
-						</div>
-						<div><a href="http://try.jquery.com/">Learn jQuery</a></div>	
-				</section>					
-	
+					
+				</section>						
 			</div>
 		</div>
 		

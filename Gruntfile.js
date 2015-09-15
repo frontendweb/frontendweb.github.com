@@ -10,6 +10,7 @@ module.exports = function(grunt) {
                 "intro.html": "app/base/intro.html",
                 "faq.html": "app/base/faq.html",
                 "lesson1.html": "app/base/lesson1.html",
+                "lesson2.html": "app/base/lesson2.html",
                 "resources.html": "app/base/resources.html",
                 "updates.html": "app/base/updates.html",
                 "sites.html": "app/base/sites.html",

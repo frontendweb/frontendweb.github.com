@@ -23,24 +23,25 @@
 				<div class="nav-collapse">
 					<ul class="nav">
 						<li><a href="index.html">Home</a></li>
-						<li class="active dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">Lessons</a>
+						<li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">Lessons</a>
 						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
 							<li><a tabindex="-1" href="intro.html" id="introNav">Introduction</a></li>
 							<li><a tabindex="-1" href="lesson1.html" id="lesson1">Lesson 1</a></li>
 							<li><a tabindex="-1" href="lesson2.html" id="lesson2">Lesson 2</a></li>
-							<li><a tabindex="-1" href="lesson3.html" id="lesson3">Lesson 3</a></li>			
-							<li><a tabindex="-1" href="lesson4.html" id="lesson4">Lesson 4</a></li>		
+							<li class="active"><a tabindex="-1" href="lesson3.html" id="lesson3">Lesson 3</a></li>
+							<!-- <li><a tabindex="-1" href="lesson4.html" id="lesson4">Lesson 4</a></li>	
 							<li><a tabindex="-1" href="lesson5.html" id="lesson5">Lesson 5</a></li>	
 							<li><a tabindex="-1" href="lesson6.html" id="lesson6">Lesson 6</a></li>	
-							<li><a tabindex="-1" href="lesson7.html" id="lesson7">Lesson 7</a></li>		
-							<li><a tabindex="-1" href="lesson8.html" id="lesson8">Lesson 8</a></li>		
+							<li><a tabindex="-1" href="lesson7.html" id="lesson7">Lesson 7</a></li>				
+							<li><a tabindex="-1" href="lesson8.html" id="lesson8">Lesson 8</a></li>				 -->
 						</ul>
 						<li><a href="resources.html">Resources</a></li>
 						<li><a href="updates.html">Updates</a></li>
 						<li><a href="sites.html">Sites</a></li>
-						<li><a href="faq.html">FAQ</a></li>
-						<li><a href="tutorial.html">Github Tutorial</a></li>		
-						<li><a href="firebase.html">Firebase Tutorial</a></li>
+						<li><a href="faq.html">FAQ</a></li>	
+						<li><a href="tutorial.html">Github Tutorial</a></li>	
+						<li><a href="intro.html#contact">Contact</a></li>	
+						<!-- <li><a href="firebase.html">Firebase Tutorial</a></li> -->
 					</ul>
 				</div>
 			</div>
@@ -52,15 +53,15 @@
 					<ul class="nav nav-tabs nav-stacked bs-docs-sidenav affix">					
 						<li class="active"><a href="#goals">Goals</a></li>
 						<li><a href="#codecademy">Codecademy</a></li>
-						<li><a href="#devtools">Chrome Dev Tools</a></li>
-						<li><a href="#deploy">Deploying your file</a></li>
-						<li><a href="#homework">Homework</a></li>
+						<!-- <li><a href="#devtools">Chrome Dev Tools</a></li> -->
+						<!-- <li><a href="#deploy">Deploying your file</a></li> -->
+						<!-- <li><a href="#homework">Homework</a></li> -->
 					</ul>
 			</div>
 			<div class="span9">
 				<section id="goals">
 					<div class="page-header">
-						<h1>Lesson 3 <small>October 1, 2014</small></h1>
+						<h1>Lesson 3 <small>September 22, 2015</small></h1>
 					</div>					
 					<h2>Goals For This Lesson</h2>
 					<ul>
@@ -70,25 +71,29 @@
 						</ul>
 						<li>Demo:</li>
 						<ul>
-							<li>How to use the 3 most common selectors: tag, class, and ID (CSS)</li>
-							<li>How to deploy your CSS file</li>
-							<li>How to use Chrome Dev Tools</li>
+							<li>How to use the 3 most common selectors: tag, class, and ID (CSS) using our <a href="https://jsfiddle.net/8ojsf52r/1/" target="_blank">homework</a> from last time. Remember to fork your own copy or create a JSFiddle from your homework if you don't want to use my stuff. The <a href="https://jsfiddle.net/acjbvfqv/1/" target="_blank">answer</a> can be found here after you give it a try.</li>
+							<!-- introduce the bootstrap grid system -->
+							<li>Introduction to <a href="http://getbootstrap.com/css/#grid" target="_blank">Bootstrap CSS & Grid System</a>. Here's a <a href="https://jsfiddle.net/z2rtwg1x/" target="_blank">sandbox</a> with Bootstrap CSS already included</li>
+							<!-- <li>How to use Chrome Dev Tools</li> -->
 						</ul>						
 						<li>Reading</li>							
 						<ul>
-							<li><strong>Note: The reading does not map 1 to 1 chronologically for Codecademy so I recommend reading these chapters in order. I thnk Codecademy is good for learning bits a pieces, but it's not so good at putting it all together which is why the book chapters are necessary.</strong></li>
-							<li>Book Website: <a href="http://javascriptbook.com">http://javascriptbook.com</a></li>
-							<li>Chapter 1: The ABC of Programming</li>
-							<li>Chapter 2: Basic Javascript Instructions</li>
-							<li>Chapter 3: Functions, Methods & Objects</li>
-							<li>Chapter 4: Decisions and Loops</li>
-							<li>Chapter 5: Document Object Model</li>
-							<li>Chapter 6: Events</li>
+							<li><strong>Note: The reading does not map 1 to 1 chronologically for Codecademy so I recommend reading these chapters in order. I think Codecademy is good for learning bits a pieces, but it's not so good at putting it all together which is why the book chapters are necessary.</strong>
+								<ul>
+									<li>Book Website: <a href="http://javascriptbook.com" target="_blank">http://javascriptbook.com</a></li>
+									<li>Chapter 1: The ABC of Programming</li>
+									<li>Chapter 2: Basic Javascript Instructions</li>
+									<li>Chapter 3: Functions, Methods & Objects</li>
+									<li>Chapter 4: Decisions and Loops</li>
+									<li>Chapter 5: Document Object Model</li>
+									<li>Chapter 6: Events</li>
+								</ul>
+							</li>
 						</ul>
 						<li>Advanced Topic/Tool</li>
 						<ul>
-							<li><a href="http://www.codecademy.com/courses/javascript-beginner-en-x9DnD/0/1?curriculum_id=506324b3a7dffd00020bf661">Choose your own adventure!</a></li>
-							<li><a href="http://www.codecademy.com/courses/javascript-beginner-en-Bthev-mskY8/0/1?curriculum_id=506324b3a7dffd00020bf661">Rock, Paper, Scissors!</a></li>
+							<li><a href="http://www.codecademy.com/courses/javascript-beginner-en-x9DnD/0/1?curriculum_id=506324b3a7dffd00020bf661" target="_blank">Choose your own adventure!</a></li>
+							<li><a href="http://www.codecademy.com/courses/javascript-beginner-en-Bthev-mskY8/0/1?curriculum_id=506324b3a7dffd00020bf661" target="_blank">Rock, Paper, Scissors!</a></li>
 						</ul>
 					</ul>
 					<div><p><strong>What your personal directory should look like at the end of this lesson:</strong></p></div>					
@@ -101,6 +106,10 @@
 								<li>/css</li>
 								<ul>
 									<li><code>main.css</code></li>
+								</ul>
+								<li>/lib <span class="label label-info">New!</span></li>
+								<ul>
+									<li><code>bootstrap.min.css</code> <span class="label label-info">New!</span></li>
 								</ul>
 								<!--
 								<li>/js <span class="label label-info">New!</span></li>
@@ -119,48 +128,17 @@
 						</div>
 						<div><a href="http://www.codecademy.com/courses/getting-started-v2?curriculum_id=506324b3a7dffd00020bf661" target="_blank">Introduction to Javascript: Getting Started with Programming</a></div>
 						<div><a href="http://www.codecademy.com/courses/javascript-beginner-en-6LzGd/0/1?curriculum_id=506324b3a7dffd00020bf661" target="_blank">Introduction to Functions</a></div>
-				</section>
-	            <section id="devtools">
-	                <h2>Development Tools</h2>                
-	                <p>Popular tools include <a href="http://getfirebug.com/" target="_blank">Firebug</a> in Firefox, <a href="https://developers.google.com/chrome-developer-tools/docs/overview" target="_blank">Chrome Developer Tools</a> in Chrome, and <a href="http://www.opera.com/dragonfly/" target="_blank">Firefly</a> in Opera.                
-	                <p><iframe width="560" height="315" src="http://www.youtube.com/embed/nOEw9iiopwI" frameborder="0" allowfullscreen></iframe></p>
-	                <h3>In Chrome F12 to open Developer Tools:</h3>
-	                <p>Ctrl+O: Open file</p>
-	                <p>Ctrl+Shift+O: Find function</p>
-	                <p>Ctrl+Shift+F: Find variable</p>
-	            </section>  					
-				<section id='deploy'>	
-					<h2>Deploying your file</h2>
-					<p>You can log in to your account from <a href="http://github.com" target="_blank">github.com</a></p>	
-					<p>Go to the directory that you want to create your file in.</p>
-					<div class="bs-docs-example">						
-						<img src="img/L3SS/1.png" alt="">
-					</div>
-					<hr/>
-					<p>Click on the plus sign next to the directory name</p>
-					<div class="bs-docs-example">						
-						<img src="img/L3SS/2.png" alt="">
-					</div>
-					<hr/>
-					<p>Name your file. If you want to create a directory you can just type '/' and it will auto create a directory for you</p>
-					<div class="bs-docs-example">
-						<img src="img/L3SS/3.png" alt="">
-					</div>
-					<hr/>
-					<p>Make the desired changes to your file</p>
-					<div class="bs-docs-example">
-						<img src="img/L3SS/4.png" alt="">
-					</div>
-					<hr/>
-					<p>Scroll to the bottom to the page, add a commit message and press "Commit New File"</p>
-					<div class="bs-docs-example">
-						<img src="img/L3SS/5.png" alt="">
-					</div>
-				</section>	
+				</section>				
 				<section id='homework'>	
 					<h2>Homework</h2>
 					<div>
 						<p>Read through Chapters 1 & 2 and try the <a href="http://javascriptbook.com/code" target="_blank">code examples</a></p>
+						<p>Give Bootstrap CSS a try
+							<ul>
+								<li>Add some grid classes to the <code>div</code> you added in homework 2</li>
+								<li>Make sure they work for every screen size: xs, sm, md, and lg</li>
+							</ul>
+						</p>
 					</div>					
 				</section>								
 	

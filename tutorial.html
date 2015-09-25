@@ -53,7 +53,8 @@
 					<ul class="nav nav-tabs nav-stacked bs-docs-sidenav affix">
 						<li class="active"><a href="#create">Create an Account and Repository</a></li>
 						<li class=""><a href="#deploy">Deploy a File Through Web UI</a></li>
-						<li class=""><a href="#css">Deploy Your CSS file through the Web UI</a></li>						
+						<li class=""><a href="#css">Deploy Your CSS file through the Web UI</a></li>		
+						<li class=""><a href="#bootstrap-css">Add Bootstrap CSS library to your project</a></li>						
 						<!--<li class=""><a href="#css">CSS</a></li>
 						<li class=""><a href="#javascript">Javascript</a></li>
 						<li class=""><a href="#codecademy">Codecademy</a></li>
@@ -138,6 +139,22 @@
 					<div class="bs-docs-example"><img src="img/tutorial/css/css-tutorial-10.PNG" alt=""></div>					
 					<div><h4>You're now ready to add some style to your page!</h4></div>
 				</section>					
+				<section id="bootstrap-css">
+					<div class="page-header">
+						<h1>Deploy your css file</h1>
+					</div>	
+					<div><h4>Click the "+" sign just like you did when you created your <code>index.html</code> file</h4></div>
+					<div class="bs-docs-example"><img src="img/tutorial/css/bootstrap-css-1.png" alt=""></div>
+					<div><h4>Type "lib/" into the input box, then "/bootstrap". The "/" tells GitHub you are making a directory. Then name your file <code>bootstrap.min.css</code></h4></div>
+					<div class="bs-docs-example"><img src="img/tutorial/css/bootstrap-css-2.png" alt=""></div>
+					<div><h4>Copy the code from the <a href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">Bootstrap CDN</a> and paste it into this file. It should all show up in one line since its minified (aka packaged to optimally transfer through the internet)</h4></div>
+					<div class="bs-docs-example"><img src="img/tutorial/css/bootstrap-css-3.png" alt=""></div>
+					<div><h4>Commit the file just like you did with your <code>index.html</code> and <code>main.css</code> files. Make sure the description is relevant for your own reference in the future</h4></div>
+					<div class="bs-docs-example"><img src="img/tutorial/css/bootstrap-css-4.png" alt=""></div>
+					<div><h4>Now the last step is to add a reference in our <code>index.html</code> file. Your href should point to the directory that you saved <code>bootstrap.min.css</code> in. In this case "/lib/bootstrap/bootstrap.min.css". Alternatively, you can directly link to the CDN as show here. You'll only need one of these references</h4></div>
+					<div class="bs-docs-example"><img src="img/tutorial/css/bootstrap-css-5.png" alt=""></div>					
+					<div><h4>You can now reference <a href="http://getbootstrap.com/css/">Bootstrap CSS</a> classes while in your <code>index.html</code>!</h4></div>
+				</section>	
 			</div>
 		</div>
 		

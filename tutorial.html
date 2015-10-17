@@ -57,14 +57,7 @@
 						<li class=""><a href="#deploy">Deploy a File Through Web UI</a></li>
 						<li class=""><a href="#css">Deploy Your CSS file through the Web UI</a></li>	
 						<li class=""><a href="#bootstrap-css">Add Bootstrap CSS library to your project</a></li>
-						<!--<li class=""><a href="#css">CSS</a></li>
-						<li class=""><a href="#javascript">Javascript</a></li>
-						<li class=""><a href="#codecademy">Codecademy</a></li>
-						<li class=""><a href="#git">Git</a></li>
-						<li class=""><a href="#github">GitHub</a></li>
-						<li class=""><a href="#playgrounds">Code Playgrounds</a></li>
-						<li class=""><a href="#news">News</a></li>
-						<li class=""><a href="#advanced">Advanced Topics and Tools</a></li>-->
+						<li class=""><a href="#jquery">Add jQuery library to your project</a></li>
 					</ul>
 			</div>
 			<div class="span9">
@@ -156,7 +149,29 @@
 					<div><h4>Now the last step is to add a reference in our <code>index.html</code> file. Your href should point to the directory that you saved <code>bootstrap.min.css</code> in. In this case "/lib/bootstrap/bootstrap.min.css". Alternatively, you can directly link to the CDN as show here. You'll only need one of these references</h4></div>
 					<div class="bs-docs-example"><img src="img/tutorial/css/bootstrap-css-5.png" alt=""></div>					
 					<div><h4>You can now reference <a href="http://getbootstrap.com/css/">Bootstrap CSS</a> classes while in your <code>index.html</code>!</h4></div>
-				</section>					
+				</section>	
+				<section id='jquery'>
+					<div class="page-header">
+						<h1>Add the jQuery library to your website</h1>
+					</div>						
+					<div><h4>Use the plus sign like we've done in the past to add a file</h4></div>
+					<div class="bs-docs-example"><img src="img/tutorial/jquery/1.PNG" alt=""></div>
+					<div><h4>Type in "lib/" followed by "jquery/" followed by "jquery.min.js"</h4></div>
+					<div class="bs-docs-example"><img src="img/tutorial/jquery/2.PNG" alt=""></div>
+					<div><h4>Go to <a href="https://code.jquery.com/jquery-1.11.3.min.js">jQuery CDN</a> and copy+paste the code, then commit</h4></div>
+					<div class="bs-docs-example"><img src="img/tutorial/jquery/3.PNG" alt=""></div>
+					<div><h4>Go back to your root folder and create another file by pressing the "+". This time, type "js/" followed by "main.js"</h4></div>
+					<div class="bs-docs-example"><img src="img/tutorial/jquery/4.PNG" alt=""></div>
+					<div><h4>Add the jQuery ready block we learned in class to prep your JS file for jQuery then commit the file</h4></div>
+					<div class="bs-docs-example"><img src="img/tutorial/jquery/5.PNG" alt=""></div>
+					<div><h4>Go back to the root directory and click on <code>index.html</code> so we can edit it</h4></div>
+					<div class="bs-docs-example"><img src="img/tutorial/jquery/6.PNG" alt=""></div>
+					<div><h4>Add either a reference to your local copy of the file or a remote reference. In the example below I'm referencing the local file with the reference to the remote file being in the comment block. You will only need one of these lines. It's up to you which one you prefer.</h4></div>
+					<div><h4>Also you'll need to add a reference to <code>main.js</code> so that your JS code will work. Make sure this line is below the jQuery line or else you won't be able to use the library in <code>main.js</code></h4></div>
+					<div class="bs-docs-example"><img src="img/tutorial/jquery/7.PNG" alt=""></div>
+					<div><h4>You now have a link to the jQuery library and you can start using it on your own!</h4></div>
+
+				</section>				
 			</div>
 		</div>
 		

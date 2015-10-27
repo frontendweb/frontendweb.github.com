@@ -35,7 +35,7 @@
 							<li><a tabindex="-1" href="lesson5.html" id="lesson5">Lesson 5</a></li>
 							<li><a tabindex="-1" href="lesson6.html" id="lesson6">Lesson 6</a></li>	
 							<li><a tabindex="-1" href="lesson7.html" id="lesson7">Lesson 7</a></li>
-							<!-- <li><a tabindex="-1" href="lesson8.html" id="lesson8">Lesson 8</a></li>				 -->
+							<li class="active"><a tabindex="-1" href="lesson8.html" id="lesson8">Lesson 8</a></li>				
 						</ul>
 						<li><a href="resources.html">Resources</a></li>
 						<li><a href="updates.html">Updates</a></li>
@@ -54,49 +54,55 @@
 			<div class="span3 bs-docs-sidebar">
 					<ul class="nav nav-tabs nav-stacked bs-docs-sidenav affix">					
 						<li class="active"><a href="#goals">Goals</a></li>
+						<li><a href="#whatNext">What Next?</a></li>
 					</ul>
 			</div>
 			<div class="span9">
 				<section id="goals">
 					<div class="page-header">
-						<h1>Lesson 8 <small>November 5, 2014</small></h1>
+						<h1>Lesson 8 <small>October 27, 2015</small></h1>
 					</div>					
 					<h2>Goals For This Lesson</h2>
 					<ul>
 						<li>Basic Topic:</li>
 						<ul>
-							<li>Putting Everything Together
+							<li>Putting it all together
 								<ul>
-									<li>Learn Bootstrap
-										<ul>
-											<li><a href="http://getbootstrap.com/css/">CSS</a></li>
-											<li><a href="http://getbootstrap.com/css/#grid">Grid System</a></li>
-											<li><a href="http://getbootstrap.com/components/">Components</a></li>
-										</ul>
-
-									</li>
-									<li>Create a Tip Calculator App from "Scratch"</li>									
-									<li>Look at some Bootstrap Resources</li>
-									<li>Analyze the Class Website</li>
-									<li>JSON Overview</li>
-									<li>Firebase Overview</li>
-									<li>Bower Overview</li>							
+									<li>Setting up JSFiddle</li>
+									<li>Adding a navigation bar</li>
+									<li>Adding list group</li>
+									<li>Adding a button w/ an icon</li>
+									<li>Adding a modal</li>
+									<li>Adding input</li>
+									<li>Connecting to a Firebase</li>
 								</ul>
 							</li>
+							<li>Put this on my webpage
+								<ul>
+									<li>Set up all my library dependencies</li>
+									<li>Deploy to seperate page on Github</li>
+								</ul>
+							</li>
+							<li>Brief Overview of Authentication in Firebase</li>
+							<li>What Next?</li>
 						</ul>
 						<li>Demo:</li>
 						<ul>
-							<li>Tip Calculator Project <a href="http://jsfiddle.net/39qkdyzk/5/">Start</a></li>
-							<li>Tip Calculator Project <a href="http://jsfiddle.net/39qkdyzk/4/">Completed</a></li>
-							<li><a href="http://bootsnipp.com/">Bootsnipp</a></li>
-							<li><a href="http://stackoverflow.com/questions/383692/what-is-json-and-why-would-i-use-it">JSON</a></li>
+							<li>Creating a Todo list together
+								<ul>
+									<li><a href="http://jsfiddle.net/jerycspk/">Starting point with libraries setup</a></li>
+									<li><a href="http://jsfiddle.net/ttu8y4ok/">Finished example</a></li>
+								</ul>
+							</li>
 						</ul>						
+						<li>Reading</li>
+						<ul>							
+							<li>N/A</li>
+						</ul>
 						<li>Advanced Topic/Tool</li>
 						<ul>
-							<li><a href="https://www.firebase.com/">Firebase</a></li>
-							<li><a href="http://bower.io/">Bower</a></li>
-							<li><a href="https://www.bento.io/">Bento</a></li>
-							<li><a href="http://todomvc.com/">TodoMVC</a></li>
+							<li><a href="http://jsfiddle.net/wuavzzza/">Simple Firebase Authentication Example</a></li>
+							<li><a href="http://jsfiddle.net/firebase/a221m6pb/light">Full Firebase Authetication Example</a></li>
 						</ul>
 					</ul>
 					<div><p><strong>What your personal directory should look like at the end of this lesson:</strong></p></div>					
@@ -106,18 +112,54 @@
 							<ul>
 								<li><code>README.md</code></li>
 								<li><code>index.html</code></li>
+								<li><code>todo.html</code> <span class="label label-info">New!</span></li> 
 								<li>/css</li>
 								<ul>
 									<li><code>main.css</code></li>
-								</ul>								
+								</ul>
+								<li>/lib</li>
+								<ul>
+									<li>/bootstrap</li>
+									<ul>
+										<li><code>bootstrap.min.css</code></li>
+									</ul>
+									<li>/jquery</li>
+									<ul>
+										<li><code>jquery.min.js</code></li>
+									</ul>
+								</ul>
 								<li>/js</li>
 								<ul>
 									<li><code>main.js</code></li>
-								</ul>							
+								</ul>
 							</ul>						
 						</ul>
 					</div>
-				</section>						
+				</section>
+				<section id='whatNext'>					
+					<h2>What Next?</h2>					
+						<div>
+							<ul>
+								<li><a href="https://www.bento.io/grid">Bento</a> - Visualized Skill Tree</li>
+								<li>Add a custom domain name to your github site with this <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/">tutorial</a></li>
+								<li>Online Learning
+									<ul>
+										<li><a href="https://www.codecademy.com/">Codecademy</a></li>
+										<li><a href="https://www.codeschool.com/">Code School</a></li>
+										<li><a href="https://www.udemy.com/">Udemy</a></li>
+										<li><a href="https://www.khanacademy.org/">Khan Academy</a></li>
+									</ul>
+								</li>
+								<li>Practice!</li>
+							</ul>
+						</div>
+				</section>					
+				<section>
+					<h2>Firebase Simple Chat Example</h2>
+					<div id='messagesDiv'></div>
+					<input type='text' id='nameInput' placeholder='Name'>
+    				<input type='text' id='messageInput' placeholder='Message'>
+				</section>
 			</div>
 		</div>
 		
@@ -127,4 +169,24 @@
 	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
 	<script src="lib/prettify/prettify.js"></script>
 	<script src="js/main.js"></script>
+	<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+	<script>
+      var myDataRef = new Firebase('https://frontendchat.firebaseio.com/');
+      $('#messageInput').keypress(function (e) {
+        if (e.keyCode == 13) {
+          var name = $('#nameInput').val();
+          var text = $('#messageInput').val();
+          myDataRef.push({name: name, text: text});
+          $('#messageInput').val('');
+        }
+      });
+      myDataRef.on('child_added', function(snapshot) {
+        var message = snapshot.val();
+        displayChatMessage(message.name, message.text);
+      });
+      function displayChatMessage(name, text) {
+        $('<div/>').text(text).prepend($('<em/>').text(name+': ')).appendTo($('#messagesDiv'));
+        $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
+      };
+    </script>
 </html>
